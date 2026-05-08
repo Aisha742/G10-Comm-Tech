@@ -22,21 +22,24 @@
             <li><a href="index.html">Home</a></li>
             <li><a href="photoediting.html">Photo Editing</a></li>
             <li><a href="graphicdesign.html">Graphic Design</a></li>
+            <li><a href="videoediting.html">Graphic Design</a></li>
         </ul>
     </nav>
 
  <main>
-    <h1>Welcome to my Grade 10 CommTech Website</h1>
+    <h1 id="demo">Welcome to my Grade 10 CommTech Website</h1>
     <p>The CommTech course is about digital media production. It covers  
         a large range of topics from photoshop, videography, and web design,
         helping you develop skills that real designers use everyday.</p>
 
-        <button onclick="sayHello()">Click me</button>
+        <button onclick="sayHello()">Click me!</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='50px'">Size Change!</button>
+   
  </main>  
 
   <script>
         function sayHello() {
-            alert("Hello");
+            alert("Aisha \u{1F60E}");
         }
     </script>
 

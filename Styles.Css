@@ -1,13 +1,13 @@
 body {
-    background-color: rgb(255, 254, 207);
+    background-color: rgb(255, 255, 255);
     font-family: "Sofadi One", system-ui;
-    font-weight: 400;
+    font-weight: 2000;
     font-style: normal;
 }
 
 header {
     height:150px;
-    background-color: rgb(169, 238, 255);
+    background-color: rgb(255, 246, 204);
 }
 
 nav {
